@@ -1,0 +1,17 @@
+package com.julianduru.webpush;
+
+
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+/**
+ * created by julian
+ */
+@ExtendWith({SpringExtension.class})
+@SpringBootTest(classes = {
+    TestNotificationAutoConfiguration.class
+})
+public abstract class BaseServiceIntegrationTest {
+
+}
