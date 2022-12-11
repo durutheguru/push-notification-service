@@ -184,7 +184,6 @@
 			</plugin>
 
 
-
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -239,13 +238,11 @@
 						<version>8.0.1</version>
 					</dependency>
 
-
 					<dependency>
 						<groupId>org.hibernate</groupId>
 						<artifactId>hibernate-core</artifactId>
 						<version>6.1.5.Final</version>
 					</dependency>
-
 
 					<dependency>
 						<groupId>javax.validation</groupId>
@@ -268,9 +265,8 @@
 				</dependencies>
 			</plugin>
 
-
-
 		</plugins>
+
 	</build>
 
 
