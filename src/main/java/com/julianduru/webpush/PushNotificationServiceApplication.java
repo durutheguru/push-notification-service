@@ -1,14 +1,11 @@
 package com.julianduru.webpush;
 
 
-import com.fasterxml.jackson.core.JsonGenerator;
+import graphql.kickstart.spring.webclient.boot.GraphQLWebClientAutoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 /**
  * created by julian

@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>com.julianduru</groupId>
 			<artifactId>push-notification-lib</artifactId>
-			<version>0.4.6-SNAPSHOT</version>
+			<version>0.6.0-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -76,7 +76,7 @@
 		<dependency>
 			<groupId>com.julianduru</groupId>
 			<artifactId>oauth-service-lib</artifactId>
-			<version>0.7.0-79-SNAPSHOT</version>
+			<version>0.8.16-133-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>

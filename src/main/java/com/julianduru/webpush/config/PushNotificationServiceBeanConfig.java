@@ -17,4 +17,5 @@ public class PushNotificationServiceBeanConfig {
         return builder -> builder.featuresToDisable(JsonGenerator.Feature.AUTO_CLOSE_TARGET);
     }
 
+
 }
