@@ -1,5 +1,6 @@
 package com.julianduru.webpush.repository;
 
+import com.julianduru.webpush.entity.NotificationToken;
 import com.julianduru.webpush.send.UserIdToken;
 import com.julianduru.webpush.send.UserIdTokenRepository;
 import lombok.RequiredArgsConstructor;
@@ -17,6 +18,20 @@ public class ServiceUserIdTokenRepositoryImpl implements UserIdTokenRepository {
 
 
     private final UserIdNotificationTokenRepository userIdTokenRepository;
+
+
+
+
+    @Override
+    public void saveUserNotificationToken(UserIdToken notificationToken) {
+        var token = new NotificationToken();
+        token.setToken(notificationToken.token());
+        token.setUserId(notificationToken.userId());
+        token.setExpiresOn(notificationToken.expiresOn());
+
+        userIdTokenRepository.save(token);
+    }
+
 
 
     @Override
